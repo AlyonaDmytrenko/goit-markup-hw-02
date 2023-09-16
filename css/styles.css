@@ -42,7 +42,7 @@ body {
   color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -117,14 +117,21 @@ body {
 
 .hero-button {
   background: #4d5ae5;
-  font-family: "Roboto", sans-serif;
   color: #fff;
-  font-family: "Roboto";
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+
+  border-radius: 4px;
+  background: var(--IRIS, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .hero-button:hover,
@@ -145,6 +152,7 @@ body {
 }
 
 .advantages-title {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -166,6 +174,7 @@ body {
 }
 
 .team-title {
+  color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -181,6 +190,7 @@ body {
 }
 
 .team-subject {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -202,6 +212,7 @@ body {
 }
 
 .portfolio-title {
+  color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -217,6 +228,7 @@ body {
 }
 
 .portfolio-subject {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -242,7 +254,7 @@ body {
   color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
