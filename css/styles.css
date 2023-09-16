@@ -1,7 +1,8 @@
 /* задавання властивостей всьому контенту */
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #ffffff;
 }
 /* прибирання маркерів */
 .list {
@@ -37,21 +38,23 @@ body {
 }
 
 .header-logo {
-  font-family: Raleway;
-  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16px;
+  line-height: 1.17px;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .header-logo-word {
-  color: #4d5ae5;
-  font-family: Raleway;
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .header-list {
@@ -75,6 +78,7 @@ body {
 }
 
 .header-address {
+  font-style: normal;
 }
 
 .header-address-list {
@@ -86,7 +90,6 @@ body {
 .header-address-link {
   color: #434455;
   font-size: 16px;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -100,11 +103,10 @@ body {
 /* ====== HERO ====== */
 
 .hero {
+  background: #2e2f42;
 }
 
 .hero-title {
-  background: #2e2f42;
-
   color: #fff;
   text-align: center;
   font-size: 56px;
@@ -115,7 +117,7 @@ body {
 
 .hero-button {
   background: #4d5ae5;
-
+  font-family: "Roboto", sans-serif;
   color: #fff;
   font-family: "Roboto";
   font-size: 16px;
@@ -169,6 +171,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 .team-list {
 }
@@ -204,6 +207,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .portfolio-list {
@@ -234,17 +238,18 @@ body {
 }
 
 .footer-logo {
-  color: #f4f4fd;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16px;
+  line-height: 1.17px;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .footer-logo-word {
-  color: #4d5ae5;
-  font-family: Raleway;
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
